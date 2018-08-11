@@ -1,0 +1,203 @@
+body{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/oriental.png");
+    background-color: #cccccc;
+}
+h3{
+    padding: 0px;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+header{
+    display: block;
+    width:960px;
+    background-color: ffffff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    margin-left: 0px;
+    border-radius: 4px; 
+}
+
+.topnav {
+    background-color: lightgray;
+    overflow: hidden;
+
+}
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+    background-color: lightgray;
+}
+
+.topnav a:hover{
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+.topnav a:active{
+    background-color: lightgray;
+    color: black;
+}
+#YourName{
+    float:left;
+    display: block;
+    width:250px;
+    height:70px;
+    background-color: darkgrey;
+    color: black;
+}
+
+.main{
+    display: block;
+    background-color: #ffffff;
+    margin:0px;
+    text-align: justify;
+    float: left;
+    width:960px;
+    border: 1px solid #dddddd;
+    
+}
+
+.main::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+#headshot{
+    width:20%;
+    margin-right: 20px;
+    padding: 15px;
+    float: left;
+}
+
+.bioText{
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer{
+    display: block;
+    width: 960px;
+    background-color: #666666;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: 0px;
+    border-top: 5px aqua;
+    float: left;
+    border-top: 5px solid aqua;
+    margin-top: 50px;
+    color: #ffffff;
+    border-radius: 4px; 
+}
+
+.contact{
+    display: block;
+    background-color: #ffffff;
+    height: 500px;
+    width: 960px;
+    padding-top: 15px;
+    border-radius: 4px; 
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.portfolio{
+    display: block;
+    background-color: #ffffff;
+    height: 500px;
+    width: 960px;
+    padding-top: 10px;
+    border-radius: 4px; 
+    position: relative;
+    float: left;
+}
+
+#box1 > img{
+    padding: 20px;
+    width:200px;
+    height: 160px;
+    z-index: 1;
+}
+
+#test{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    z-index: 4;
+    width: 160px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+    top: 222px;
+    font-size: 10px;
+    height:5px;
+    line-height: 5px;
+}
+
+#box2 > img{
+    padding: 20px;
+    width:200px;
+    height: 160px;
+    z-index: 1;
+}
+
+#test2{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    z-index: 4;
+    width: 160px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: absolute;
+    top: 222px;
+    font-size: 10px;
+    height:5px;
+    line-height: 5px;
+}
+

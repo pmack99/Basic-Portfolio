@@ -62,13 +62,21 @@ header{
 }
 
 .main{
-    display:block;
-    margin:0px;
+    display: block;
     background-color: #ffffff;
-    width: 920px;
-    height: 450px;
-    padding: 20px;
-    padding-top: 10px;
+    margin:0px;
+    float: left;
+    text-align: justify;
+    height: 500px;
+    width: 960px;
+    border: 1px solid #dddddd;
+    
+}
+
+.main::after{
+    content: "";
+    display:block;
+    clear: both;
 }
 
 #headshot{
@@ -83,15 +91,29 @@ header{
     font-size: 18px;
 }
 
-.contact{
-    display:block;
-    margin:0px;
-    background-color: #ffffff;
-    width: 920px;
-    height: 630px;
-    padding: 20px;
-    padding-top: 10px;
+footer{
+    display: block;
+    width: 960px;
+    background-color: #666666;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: 0px;
+    border-top: 5px solid aqua;
+    margin-top: 50px;
+    color: #ffffff;
+    border-radius: 4px; 
 }
+
+.contact{
+    display: block;
+    background-color: #ffffff;
+    height: 500px;
+    width: 960px;
+    padding-top: 15px;
+    border-radius: 4px; 
+}
+
 
 input[type=text], select, textarea {
     width: 100%;
@@ -130,12 +152,14 @@ input[type=submit]:hover {
     width: 920px;
     padding-top: 10px;
     border-radius: 4px; 
+    position: relative;
+    float: left;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1.5fr);
-    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
     grid-auto-rows: minmax(100px, auto);
     width:920px;
   }
@@ -147,17 +171,6 @@ input[type=submit]:hover {
     width: 920px;
     padding: 20px;
     padding-top: 10px;
-}
-
-footer{
-    display: block;
-    width: 960px;
-    background-color: #666666;
-    color: #ffffff;
-    text-align: center;
-    line-height: 30px;
-    font-size: 10px;
-    margin-left: 0px;
-    border-top: 5px solid aqua;
-    margin-top: 30px;
+    border-radius: 4px; 
+    
 }
